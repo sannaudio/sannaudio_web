@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const tjanster = [
   {
     titel: "[Tjänst 1]",
@@ -17,8 +19,15 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1">
       <nav className="sticky top-0 z-10 w-full border-b border-black/10 bg-white/80 backdrop-blur dark:border-white/10 dark:bg-black/80">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-          <span className="text-lg font-semibold">Sannaudio AB</span>
+        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-3">
+          <Image
+            src="/logo.png"
+            alt="Sannaudio AB"
+            width={1536}
+            height={1024}
+            priority
+            className="h-9 w-auto rounded-md bg-white p-1"
+          />
           <div className="flex gap-6 text-sm">
             <a href="#om-oss" className="hover:underline">
               Om oss
