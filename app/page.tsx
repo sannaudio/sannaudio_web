@@ -23,10 +23,10 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Sannaudio AB"
-            width={1536}
-            height={1024}
+            width={1374}
+            height={504}
             priority
-            className="h-9 w-auto rounded-md bg-white p-1"
+            className="h-9 w-auto dark:invert"
           />
           <div className="flex gap-6 text-sm">
             <a href="#om-oss" className="hover:underline">
@@ -45,14 +45,14 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero */}
         <section className="mx-auto flex max-w-5xl flex-col items-center gap-6 px-6 py-24 text-center">
-          <h1 className="rounded-lg bg-white p-3">
+          <h1>
             <Image
               src="/logo.png"
               alt="Sannaudio AB"
-              width={1536}
-              height={1024}
+              width={1374}
+              height={504}
               priority
-              className="h-16 w-auto sm:h-20"
+              className="h-32 w-auto dark:invert sm:h-48 md:h-64 lg:h-80"
             />
           </h1>
           <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
