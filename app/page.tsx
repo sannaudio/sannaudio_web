@@ -56,8 +56,7 @@ export default function Home() {
             />
           </h1>
           <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-            [Ersätt med en kort och tydlig beskrivning av vad ni gör och för
-            vem.]
+            [Sanna Nordlander - Ljudtekniker.]
           </p>
           <a
             href="#kontakt"
@@ -74,8 +73,7 @@ export default function Home() {
         >
           <h2 className="text-2xl font-semibold">Om oss</h2>
           <p className="mt-4 max-w-3xl text-zinc-600 dark:text-zinc-400">
-            [Ersätt med text om företaget: vilka ni är, er bakgrund och vad som
-            gör er unika.]
+            [Sanna Nordlander - Ljudtekniker.]
           </p>
         </section>
 
@@ -107,17 +105,17 @@ export default function Home() {
         >
           <h2 className="text-2xl font-semibold">Kontakt</h2>
           <div className="mt-4 flex flex-col gap-2 text-zinc-600 dark:text-zinc-400">
-            <a href="mailto:info@sannaudio.se" className="hover:underline">
-              info@sannaudio.se
+            <a href="mailto:sanna@sannaudio.se" className="hover:underline">
+              sanna@sannaudio.se
             </a>
-            <span>[Ersätt med telefonnummer]</span>
-            <span>[Ersätt med adress, om relevant]</span>
+            <span>070-679 68 53</span>
+            <span>[112 15 Stockholm]</span>
           </div>
         </section>
       </main>
 
       <footer className="border-t border-black/10 px-6 py-8 text-center text-sm text-zinc-500 dark:border-white/10 dark:text-zinc-400">
-        © {new Date().getFullYear()} Sannaudio AB. Alla rättigheter förbehållna.
+        © {new Date().getFullYear()} Sannaudio AB.
       </footer>
     </div>
   );
