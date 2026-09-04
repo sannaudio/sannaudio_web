@@ -45,8 +45,15 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero */}
         <section className="mx-auto flex max-w-5xl flex-col items-center gap-6 px-6 py-24 text-center">
-          <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-            Sannaudio AB
+          <h1 className="rounded-lg bg-white p-3">
+            <Image
+              src="/logo.png"
+              alt="Sannaudio AB"
+              width={1536}
+              height={1024}
+              priority
+              className="h-16 w-auto sm:h-20"
+            />
           </h1>
           <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
             [Ersätt med en kort och tydlig beskrivning av vad ni gör och för
